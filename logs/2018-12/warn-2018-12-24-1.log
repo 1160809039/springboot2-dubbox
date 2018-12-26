@@ -1,0 +1,356 @@
+[11:32:37:586] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[11:32:40:128] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xin.shaozeming.dubboxapi.service.UserService': Cannot resolve reference to bean 'userService' while setting bean property 'ref'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'userService' available
+[11:32:40:229] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'userService' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'userService' in your configuration.
+
+[11:34:23:559] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[11:34:24:821] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xin.shaozeming.dubboxapi.service.UserService': Cannot resolve reference to bean 'userService' while setting bean property 'ref'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'userService' available
+[11:34:24:908] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'userService' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'userService' in your configuration.
+
+[11:38:47:078] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[11:38:48:261] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xin.shaozeming.dubboxapi.service.UserService': Cannot resolve reference to bean 'userService' while setting bean property 'ref'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'userService' available
+[11:38:48:342] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'userService' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'userService' in your configuration.
+
+[11:39:33:276] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[11:39:34:582] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xin.shaozeming.dubboxapi.service.UserService': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Duplicate application configs: <dubbo:application name="provider" id="provider" /> and <dubbo:application name="demo-provider" owner="programmer" organization="dubbox" id="demo-provider" />
+[11:39:34:606] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:858) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xin.shaozeming.dubboxapi.service.UserService': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Duplicate application configs: <dubbo:application name="provider" id="provider" /> and <dubbo:application name="demo-provider" owner="programmer" organization="dubbox" id="demo-provider" />
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1745) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at xin.shaozeming.dubboxserver.ServerStart.main(ServerStart.java:20) [classes/:?]
+Caused by: java.lang.IllegalStateException: Duplicate application configs: <dubbo:application name="provider" id="provider" /> and <dubbo:application name="demo-provider" owner="programmer" organization="dubbox" id="demo-provider" />
+	at com.alibaba.dubbo.config.spring.ServiceBean.afterPropertiesSet(ServiceBean.java:165) ~[dubbo-2.8.4.jar:2.8.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 16 more
+[11:40:24:434] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[11:40:26:470] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method org.apache.catalina.connector.Connector.setProtocol(Ljava/lang/String;)V but it does not exist. Its class, org.apache.catalina.connector.Connector, is available from the following locations:
+
+    jar:file:/C:/Users/Administrator/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar!/org/apache/catalina/connector/Connector.class
+
+It was loaded from the following location:
+
+    file:/C:/Users/Administrator/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.apache.catalina.connector.Connector
+
+[11:46:09:819] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[11:48:24:811] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[11:52:35:578] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[12:55:24:876] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[13:16:20:905] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[13:22:08:949] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[13:40:04:383] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[13:40:05:155] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+[13:40:05:175] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:858) - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:155) ~[spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:540) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at xin.shaozeming.dubboxserver.ServerStart.main(ServerStart.java:20) [classes/:?]
+Caused by: org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:204) ~[spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:178) ~[spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:152) ~[spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	... 8 more
+[13:50:01:783] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[16:38:59:358] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[16:56:57:734] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:31:24:675] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceProvider' defined in file [I:\blog\dubbox\dubboxserver\target\classes\xin\shaozeming\dubboxserver\api\UserServiceProvider.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'rest' available
+[17:31:24:760] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'rest' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'rest' in your configuration.
+
+[17:31:24:768] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:34:32:992] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceProvider' defined in file [I:\blog\dubbox\dubboxserver\target\classes\xin\shaozeming\dubboxserver\api\UserServiceProvider.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'rest' available
+[17:34:33:066] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'rest' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'rest' in your configuration.
+
+[17:34:33:074] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:39:08:926] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceProvider' defined in file [I:\blog\dubbox\dubboxserver\target\classes\xin\shaozeming\dubboxserver\api\UserServiceProvider.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'rest' available
+[17:39:09:002] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'rest' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'rest' in your configuration.
+
+[17:39:09:009] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:40:39:253] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userService' defined in file [I:\blog\dubbox\dubboxserver\target\classes\xin\shaozeming\dubboxserver\api\UserServiceProvider.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'rest' available
+[17:40:39:362] [ERROR] - org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'rest' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'rest' in your configuration.
+
+[17:40:39:370] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:45:27:739] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceProvider' defined in file [I:\blog\dubbox\dubboxserver\target\classes\xin\shaozeming\dubboxserver\api\UserServiceProvider.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: userService
+[17:45:27:756] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:858) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceProvider' defined in file [I:\blog\dubbox\dubboxserver\target\classes\xin\shaozeming\dubboxserver\api\UserServiceProvider.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: userService
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:584) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at xin.shaozeming.dubboxserver.ServerStart.main(ServerStart.java:27) [classes/:?]
+Caused by: java.lang.IllegalStateException: userService
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:204) ~[dubbo-2.8.4.jar:2.8.4]
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:145) ~[dubbo-2.8.4.jar:2.8.4]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:202) ~[dubbo-2.8.4.jar:2.8.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1749) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 13 more
+Caused by: java.lang.ClassNotFoundException: userService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_162]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_162]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_162]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_162]
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:201) ~[dubbo-2.8.4.jar:2.8.4]
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:145) ~[dubbo-2.8.4.jar:2.8.4]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:202) ~[dubbo-2.8.4.jar:2.8.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1749) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 13 more
+[17:45:27:774] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:46:59:151] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceProvider' defined in file [I:\blog\dubbox\dubboxserver\target\classes\xin\shaozeming\dubboxserver\api\UserServiceProvider.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: userService
+[17:46:59:189] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:858) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceProvider' defined in file [I:\blog\dubbox\dubboxserver\target\classes\xin\shaozeming\dubboxserver\api\UserServiceProvider.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: userService
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:584) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at xin.shaozeming.dubboxserver.ServerStart.main(ServerStart.java:27) [classes/:?]
+Caused by: java.lang.IllegalStateException: userService
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:204) ~[dubbo-2.8.4.jar:2.8.4]
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:145) ~[dubbo-2.8.4.jar:2.8.4]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:202) ~[dubbo-2.8.4.jar:2.8.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1749) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 13 more
+Caused by: java.lang.ClassNotFoundException: userService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_162]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_162]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_162]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_162]
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:201) ~[dubbo-2.8.4.jar:2.8.4]
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:145) ~[dubbo-2.8.4.jar:2.8.4]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:202) ~[dubbo-2.8.4.jar:2.8.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1749) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 13 more
+[17:46:59:211] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:49:05:071] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceProvider' defined in file [I:\blog\dubbox\dubboxserver\target\classes\xin\shaozeming\dubboxserver\api\UserServiceProvider.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: userServiceProvider
+[17:49:05:103] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:858) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceProvider' defined in file [I:\blog\dubbox\dubboxserver\target\classes\xin\shaozeming\dubboxserver\api\UserServiceProvider.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: userServiceProvider
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:584) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at xin.shaozeming.dubboxserver.ServerStart.main(ServerStart.java:27) [classes/:?]
+Caused by: java.lang.IllegalStateException: userServiceProvider
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:204) ~[dubbo-2.8.4.jar:2.8.4]
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:145) ~[dubbo-2.8.4.jar:2.8.4]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:202) ~[dubbo-2.8.4.jar:2.8.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1749) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 13 more
+Caused by: java.lang.ClassNotFoundException: userServiceProvider
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_162]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338) ~[?:1.8.0_162]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_162]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_162]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_162]
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:201) ~[dubbo-2.8.4.jar:2.8.4]
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:145) ~[dubbo-2.8.4.jar:2.8.4]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:202) ~[dubbo-2.8.4.jar:2.8.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1749) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 13 more
+[17:49:05:126] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:50:35:416] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:50:35:576] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/remoting/exchange/Exchangers.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/remoting/exchange/Exchangers.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-remoting-api/2.8.4/dubbo-remoting-api-2.8.4.jar!/com/alibaba/dubbo/remoting/exchange/Exchangers.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:50:35:589] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/remoting/Transporters.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-remoting-api/2.8.4/dubbo-remoting-api-2.8.4.jar!/com/alibaba/dubbo/remoting/Transporters.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/remoting/Transporters.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:50:35:590] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/remoting/RemotingException.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/remoting/RemotingException.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-remoting-api/2.8.4/dubbo-remoting-api-2.8.4.jar!/com/alibaba/dubbo/remoting/RemotingException.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:52:21:286] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:52:21:407] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/remoting/exchange/Exchangers.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/remoting/exchange/Exchangers.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-remoting-api/2.8.4/dubbo-remoting-api-2.8.4.jar!/com/alibaba/dubbo/remoting/exchange/Exchangers.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:52:21:417] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/remoting/Transporters.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-remoting-api/2.8.4/dubbo-remoting-api-2.8.4.jar!/com/alibaba/dubbo/remoting/Transporters.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/remoting/Transporters.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:52:21:418] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/remoting/RemotingException.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/remoting/RemotingException.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-remoting-api/2.8.4/dubbo-remoting-api-2.8.4.jar!/com/alibaba/dubbo/remoting/RemotingException.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[17:57:50:666] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceProvider' defined in file [I:\blog\dubbox\dubboxserver\target\classes\xin\shaozeming\dubboxserver\api\UserServiceProvider.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'registryConfig' is expected to be of type 'com.alibaba.dubbo.config.ProtocolConfig' but was actually of type 'com.alibaba.dubbo.config.RegistryConfig'
+[17:57:50:681] [ERROR] - org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:858) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceProvider' defined in file [I:\blog\dubbox\dubboxserver\target\classes\xin\shaozeming\dubboxserver\api\UserServiceProvider.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'registryConfig' is expected to be of type 'com.alibaba.dubbo.config.ProtocolConfig' but was actually of type 'com.alibaba.dubbo.config.RegistryConfig'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:584) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139) [spring-boot-2.1.0.BUILD-20181030.064057-619.jar:2.1.0.BUILD-SNAPSHOT]
+	at xin.shaozeming.dubboxserver.ServerStart.main(ServerStart.java:27) [classes/:?]
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'registryConfig' is expected to be of type 'com.alibaba.dubbo.config.ProtocolConfig' but was actually of type 'com.alibaba.dubbo.config.RegistryConfig'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:392) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:187) ~[dubbo-2.8.4.jar:2.8.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1749) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	... 13 more
+[17:57:50:694] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[18:03:08:962] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[18:14:39:998] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[18:19:19:402] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[18:42:54:551] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[18:52:52:704] [ERROR] - com.alibaba.dubbo.common.logger.slf4j.Slf4jLogger.error(Slf4jLogger.java:66) -  [DUBBO] Duplicate class com/alibaba/dubbo/common/Version.class in 2 jar [file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo-common/2.8.4/dubbo-common-2.8.4.jar!/com/alibaba/dubbo/common/Version.class, file:/C:/Users/Administrator/.m2/repository/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/common/Version.class], dubbo version: 2.8.4, current host: 127.0.0.1
+[19:24:53:500] [WARN] - org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1108) - Client session timed out, have not heard from server in 26666ms for sessionid 0x1000556b8d30019
+[19:25:11:182] [WARN] - org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1285) - Unable to reconnect to ZooKeeper service, session 0x1000556b8d30019 has expired
